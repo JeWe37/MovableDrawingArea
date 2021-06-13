@@ -6,6 +6,10 @@ When started, this creates a transparent gray rectangle of configurable size whi
 
 Now any movements of your pen will be translated to changes in the mapped area, such that the position of your cursor remains the same once you let go of the spacebar. 
 
+Perhaps this is best illustrated by a video:
+
+https://user-images.githubusercontent.com/26010054/121791788-1df23680-cbee-11eb-99b0-9a3a742fab9d.mp4
+
 ## Running
 
 Really it could not be simpler. Simply execute the script with python(or add execute permissions) and pass in the fraction of the vertical height of your screen that you want your writing area to take up. As the first parameter. So for instance:
