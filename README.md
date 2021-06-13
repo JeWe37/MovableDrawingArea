@@ -1,4 +1,4 @@
-# Wacom Linux Movable Drawing Area
+# Graphics Tablet Movable Drawing Area
 
 This is an attempt to solve the problem of using small graphics tablets for notetaking applications. 
 
