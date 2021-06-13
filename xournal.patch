@@ -1,0 +1,27 @@
+diff --git a/src/gui/XournalView.cpp b/src/gui/XournalView.cpp
+index c1b41271..e2085c78 100644
+--- a/src/gui/XournalView.cpp
++++ b/src/gui/XournalView.cpp
+@@ -169,14 +169,14 @@ auto XournalView::onKeyPressEvent(GdkEventKey* event) -> bool {
+         }
+     }
+ 
+-    if (event->keyval == GDK_KEY_space) {
+-        GtkAllocation alloc = {0};
+-        gtk_widget_get_allocation(gtk_widget_get_parent(this->widget), &alloc);
+-        int windowHeight = alloc.height - scrollKeySize;
+-
+-        layout->scrollRelative(0, windowHeight);
+-        return true;
+-    }
++    // if (event->keyval == GDK_KEY_space) {
++    //     GtkAllocation alloc = {0};
++    //     gtk_widget_get_allocation(gtk_widget_get_parent(this->widget), &alloc);
++    //     int windowHeight = alloc.height - scrollKeySize;
++
++    //     layout->scrollRelative(0, windowHeight);
++    //     return true;
++    // }
+ 
+     // Numeric keypad always navigates by page
+     if (event->keyval == GDK_KEY_KP_Up) {
